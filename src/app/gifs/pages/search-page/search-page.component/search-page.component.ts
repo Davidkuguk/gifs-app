@@ -1,9 +1,10 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-search-page.component',
+  selector: 'app-search-page',
   imports: [],
   templateUrl: './search-page.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SearchPageComponent { }
+export default class SearchPageComponent {
+
+ }
