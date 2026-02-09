@@ -11,7 +11,7 @@ export const routes: Routes = [
     },
     {
         path:'trending',
-        loadComponent: () => import('./gifs/pages/trending-page/trending-page.component/trending-page.component.ts')
+        loadComponent: () => import('./gifs/pages/trending-page/trending-page.component')
     },
     {
         path: '**',
