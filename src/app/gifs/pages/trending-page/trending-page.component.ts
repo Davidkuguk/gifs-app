@@ -24,4 +24,6 @@ const imageUrls: string[] = [
 })
 
 
-export default class TrendingPageComponent { }
+export default class TrendingPageComponent { 
+  gifs = imageUrls;
+}
